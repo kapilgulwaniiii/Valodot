@@ -2,27 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-#grad1 {
-  
- 
-  background-image: linear-gradient(to bottom right ,rgba(15,24,33,100),rgba(15,24,33,100),rgba(255,70,84,200));
-  background-size: 400vh 400vh; 
-  animation: gradient 15s ease infinite;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
- 
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,16 +15,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }

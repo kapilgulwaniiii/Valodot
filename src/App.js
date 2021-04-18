@@ -1,14 +1,11 @@
-
-import './App.css';
-//import Greeting from './components/greetings.js' 
-import First from './MainPage/MainPage.js' 
+//import Greeting from './components/greetings.js'
+import First from "./MainPage/MainPage.js";
 
 function App() {
-
-  
-  return (<div>
-    <First/>
-  </div>
+  return (
+    <div>
+      <First/>
+    </div>
   );
 }
 
