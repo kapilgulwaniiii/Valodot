@@ -4,7 +4,7 @@ import First from "./MainPage/MainPage.js";
 function App() {
   return (
     <div>
-      <First/>
+      <First />
     </div>
   );
 }
