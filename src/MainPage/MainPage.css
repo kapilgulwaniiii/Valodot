@@ -14,27 +14,40 @@ h2 {
   margin-right: auto;
   width: 50%;
 }
-
 .ghost {
-  left: 36%;
+  left: 50%;
   right: 50%;
-  position: relative;
+  vertical-align: baseline;
   display: inline-block;
-  width: 180px;
-  padding: 10px;
-  margin: 10px;
-  color: #fff;
-  border: 2px solid #fff;
-  text-align: center;
   outline: none;
+  text-align: center;
   text-decoration: none;
-  transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border: 1px solid;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 0.9375em;
+  color: #808080;
+  padding: 0.5375em 1.375em;
+  margin: 10px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
 }
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
 .ghost:hover,
 .ghost:active {
-  background-color: #fff; 
+  background-color: #fff;
   background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff; 
+  border-color: #fff;
   border-color: rgba(255, 255, 255, 0.4);
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
 }

@@ -8,9 +8,7 @@ function First() {
       <h2 align="center"> 13-0</h2>
       <img src={logo} class="center" alt="Valorant_Image" />
       <div class="ghost">
-        <a class="knowmore" href="#">
-          Know More
-        </a>
+      <a class="knowmore" href="#">Know More</a>
       </div>
       <div class="ghost">
         <a class="profiles" href="#">
