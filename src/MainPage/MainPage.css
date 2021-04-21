@@ -15,15 +15,14 @@ h2 {
   width: 50%;
 }
 .ghost {
-  left: 50%;
+  left: 42%;
   right: 50%;
   vertical-align: baseline;
   display: inline-block;
-  outline: none;
+  
   text-align: center;
   text-decoration: none;
   position: relative;
-  font-weight: 300;
   letter-spacing: 1px;
   border: 1px solid;
   transition: all 0.2s ease;
@@ -50,4 +49,34 @@ a:focus {
   border-color: #fff;
   border-color: rgba(255, 255, 255, 0.4);
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+}
+
+.nav {
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-family: Valorant;
+  color: azure;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
+  
+}
+
+.nav a:hover {
+  background-color: #808080;
+  color: black;
+}
+
+
+.nav a.active {
+  background-color: #6b2333,;
+  color: white;
 }
