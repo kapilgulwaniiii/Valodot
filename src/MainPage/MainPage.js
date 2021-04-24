@@ -3,8 +3,8 @@ import "./MainPage.css";
 function First() {
   return (
     <div id="grad1">
-      <div class="nav">
-        <a class="active" href="#home">
+      <div className="nav">
+        <a className="active" href="#home">
           Home
         </a>
         <a href="#profile">Profiles</a>
@@ -14,14 +14,14 @@ function First() {
       <h1 align="center">vAloDot</h1>
       <h2 align="center"> VvIFS</h2>
       <h2 align="center"> 13-0</h2>
-      <img src={logo} class="center" alt="Valorant_Image" />
-      <div class="ghost">
-        <a class="knowmore" href="#">
+      <img src={logo} className="center" alt="Valorant_Image" />
+      <div className="ghost">
+        <a className="knowmore" href="#knowmore">
           Know More
         </a>
       </div>
-      <div class="ghost">
-        <a class="profiles" href="#">
+      <div className="ghost">
+        <a className="profiles" href="#profiles">
           Profiless
         </a>
       </div>

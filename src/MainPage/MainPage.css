@@ -15,24 +15,21 @@ h2 {
   width: 50%;
 }
 .ghost {
+  font-family: Valorant;
+  color: azure;
   left: 42%;
   right: 50%;
   vertical-align: baseline;
   display: inline-block;
-  
-  text-align: center;
-  text-decoration: none;
   position: relative;
-  letter-spacing: 1px;
   border: 1px solid;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
   transition: all 0.2s ease;
   box-sizing: border-box;
-  border-radius: 3px;
-  font-size: 0.9375em;
   color: #808080;
-  padding: 0.5375em 1.375em;
   margin: 10px;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
 }
 a,
 a:hover,
@@ -44,22 +41,17 @@ a:focus {
 
 .ghost:hover,
 .ghost:active {
-  background-color: #fff;
   background-color: rgba(255, 255, 255, 0.4);
-  border-color: #fff;
   border-color: rgba(255, 255, 255, 0.4);
   transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
 
 .nav {
-  
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
-
 .nav a {
-  float: right;
+  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 15px 20px;
@@ -67,7 +59,6 @@ a:focus {
   font-family: Valorant;
   color: azure;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
-  
 }
 
 .nav a:hover {
@@ -75,8 +66,3 @@ a:focus {
   color: black;
 }
 
-
-.nav a.active {
-  background-color: #6b2333,;
-  color: white;
-}
